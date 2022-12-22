@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet">
+    <style>
+        .form
+        {
+            background-color: #FFFF99;
+            padding:5px;
+            width: 600px;
+            margin-left:300px;
+            margin-top:50px;
+        }
+        .title{
+            background-color: #CCFFCC;
+            text-align: left;
+            color: blue;
+        }
+        table{
+            color:blue;
+            border-spacing: 10px;
+        }
+        .space
+        {
+            margin-left:40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h2 class="title">ĐĂNG KÝ HỌC VIÊN</h2>
+        <form action="">
+        <table>
+            <tr>
+                <td>Họ và tên</td>
+                <td class="space"><input class="space" type="text" id="hoten" name="hoten" size="35"></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td><input class="space" type="text" id="hoten" name="hoten" size="15"></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input class="space" type="radio" id="hoten" name="hoten" size="15"> Nam
+                    <input type="radio" name="hoten" id="hoten"> Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><textarea class="space" cols="30" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td>
+                    <select class="space">
+                        <option>--Chọn lớp--</option>
+                        <option>Kĩ thuật phần mềm</option>
+                        <option>Khoa học máy tính</option>
+                        <option>An toàn thông tin</option>
+                        <option>Bảo mật thông tin</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Emai</td>
+                <td><input class="space" type="text" id="email" name="email" size="20"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input class="space" type="text" id="dienthoai" name="dienthoai" size="20"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <input style="margin-left:120px" type="submit" name="dangky" value="Đăng ký">
+                <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
